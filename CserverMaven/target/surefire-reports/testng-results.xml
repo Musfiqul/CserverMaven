@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="gautomation.CservTest" duration-ms="13937" started-at="2017-09-15T09:53:14Z" finished-at="2017-09-15T09:53:28Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="13937" started-at="2017-09-15T09:53:14Z" finished-at="2017-09-15T09:53:28Z">
+      <class name="gautomation.CservTest">
+        <test-method status="PASS" signature="iTest()[pri:0, instance:gautomation.CservTest@380fb434]" name="iTest" duration-ms="13890" started-at="2017-09-15T11:53:14Z" finished-at="2017-09-15T11:53:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iTest -->
+      </class> <!-- gautomation.CservTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- gautomation.CservTest -->
+</testng-results>

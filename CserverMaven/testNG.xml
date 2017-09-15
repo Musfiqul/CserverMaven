@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Cserver Reporter Suite">
+    <listeners>
+        <!--        <listener class-name="CustomReporter" />    -->
+        <!-- <listener class-name="org.uncommons.reportng.HTMLReporter"/>   -->
+    </listeners>
+
+    <test name="CServer Smoketest">
+        <parameter name="baseUrl" value="http://pdm-aka-test/"/>
+        <parameter name="testUser" value="testerA"/>
+        <parameter name="testPassword" value="Atester123"/>
+        <parameter name="searchNum" value="19.39"/>
+        <parameter name="expectErgebnisse" value="7 Ergebnisse"/>
+        <parameter name="expectString" value="19.39 Geniale Organisation mit OneNote"/>
+        <classes>
+            <class name="de.cserv.CservTest" />
+        </classes>
+    </test>
+</suite>
+
+
+
